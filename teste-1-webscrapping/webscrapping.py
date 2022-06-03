@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from zipfile import ZipFile
-import os
 
 print("O download está prestes a começar ...")
 page = requests.get(
