@@ -20,3 +20,6 @@ for tag in anchor_tags_list:
         file = requests.get(href)
         open(file_name, 'wb').write(file.content)
         zipObj.write(file_name)
+
+print("Download concluído!")
+zipObj.close();
